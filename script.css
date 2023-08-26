@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    color: #048a81;
+    background-color: #f8f7f9;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+button {
+    background-color: #048a81;
+    color: #f8f7f9;
+}
