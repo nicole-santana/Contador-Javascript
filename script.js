@@ -9,7 +9,7 @@ function adicionar(){
 function salvar() {
     let hist = cliques
     document.getElementById("historico").textContent += hist + " - "
-    cliques = 0
+    document.getElementById("count-el").textContent= 0
 }
 
 
