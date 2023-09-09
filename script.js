@@ -11,6 +11,8 @@ function salvar() {
     document.getElementById("historico").textContent += hist + " - "
     //não funciona se for innerText
     document.getElementById("count-el").textContent= 0
+    //aqui reseta as cliques, sem isso a gente pode salvar o número salvo várias vezes, mesmo que estaja aparecendo um 0
+    cliques = 0
 }
 
 
